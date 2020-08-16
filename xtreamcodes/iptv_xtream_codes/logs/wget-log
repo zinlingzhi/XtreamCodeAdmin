@@ -1,0 +1,6 @@
+--2019-11-03 21:46:23--  http://service.pro-ip-tv.com:2095/get.php?username=Test2
+Resolving service.pro-ip-tv.com (service.pro-ip-tv.com)... 89.248.172.57
+Connecting to service.pro-ip-tv.com (service.pro-ip-tv.com)|89.248.172.57|:2095... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.

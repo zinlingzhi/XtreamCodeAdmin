@@ -1,0 +1,109 @@
+/*custom css for video page*/
+
+.ui-content{
+max-width: 1280px;
+margin-top: 200px;
+}
+
+.channels{
+}
+
+.ui-li-thumb{
+}
+
+.videoscreen{
+border: 0px inset;
+box-shadow: 0px 0px 150px rgba(255, 255, 255, 1);
+}
+
+#vlc {
+box-shadow: 0px 0px 150px rgba(255, 0, 0, 1);
+}
+
+.video-js {
+box-shadow: 0px 0px 150px rgba(255, 0, 0, 1);
+}
+
+.my_video_1{
+width: 640px;
+height: 360px;
+}
+
+
+.titletext{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 70px;
+position: relative;
+top: 20px;
+}
+
+.titletext2{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 40px;
+position: relative;
+top: 200px;
+}
+
+
+.ui-btn, .ui-btn-icon-right, .ui-icon-carat-r{
+  background: rgba(0,0,0,0.2);
+  }
+
+
+.videoout{
+position: relative;
+top: 100px;
+}
+
+
+/*header bar colour/gradient*/
+
+.ui-bar-b, .ui-page-theme-b .ui-bar-inherit, html .ui-bar-b .ui-bar-inherit, html .ui-body-b .ui-bar-inherit, html body .ui-group-theme-b .ui-bar-inherit {
+background: rgb(79,79,79); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(79,79,79,1) 0%, rgba(35,35,35,1) 50%, rgba(10,14,10,1) 51%, rgba(10,8,9,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(79,79,79,1)), color-stop(50%,rgba(35,35,35,1)), color-stop(51%,rgba(10,14,10,1)), color-stop(100%,rgba(10,8,9,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(35,35,35,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(35,35,35,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(35,35,35,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(79,79,79,1) 0%,rgba(35,35,35,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+}
+
+/*background*/
+
+.ui-overlay-b, .ui-page-theme-b, .ui-page-theme-b .ui-panel-wrapper {
+background-image: url("../webapp/bg9.gif"); /*Patterned background */
+}
+
+
+.ui-page-theme-b .ui-btn, html .ui-bar-b .ui-btn, html .ui-body-b .ui-btn, html body .ui-group-theme-b .ui-btn, html head+body .ui-btn.ui-btn-b, .ui-page-theme-b .ui-btn:visited, html .ui-bar-b .ui-btn:visited, html .ui-body-b .ui-btn:visited, html body .ui-group-theme-b .ui-btn:visited, html head+body .ui-btn.ui-btn-b:visited {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34, 34, 34, 0.74)), color-stop(100%,rgba(0, 0, 0, 0.56)));
+}
+
+.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn, .ui-li-has-thumb, .ui-first-child, .ui-last-child{
+margin: 5px;
+border-radius: 15px;
+}
+
+.ui-listview>li.ui-first-child, .ui-listview>li.ui-first-child>a.ui-btn  {
+border-radius: 15px;
+}
+
+.ui-listview .ui-li-has-thumb
+{
+border-radius: 15px;
+}
+
+.ui-listview>li.ui-last-child, .ui-listview>li.ui-last-child>a.ui-btn {
+border-radius: 15px;
+}
+
+.ui-listview .ui-li-has-thumb>img:first-child, .ui-listview .ui-li-has-thumb>.ui-btn>img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb {
+border-radius: 15px;
+}
+
+.ui-shadow {
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+}

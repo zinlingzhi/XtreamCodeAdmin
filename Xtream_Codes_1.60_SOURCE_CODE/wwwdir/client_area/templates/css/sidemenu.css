@@ -1,0 +1,65 @@
+		/* Swipe works with mouse as well but often causes text selection. */
+		#demo-page * {
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+		
+		.ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
+		/*background-color: #000d33;*/
+		border-color: #1d1d1d;
+		color: rgba(0, 0, 0, 0.88);
+		text-shadow: 0 0px 0 rgba(0, 0, 0, 0);
+		
+		
+		/*custom background and login bg box*/
+
+.ui-overlay-b, .ui-page-theme-b, .ui-page-theme-b .ui-panel-wrapper {
+/* background-color: #252121; */
+background-image: url("http://www.threeus.com/wp-content/uploads/2014/07/blurred-bg.jpg");
+border-color: #454545;
+color: #fff;
+/* text-shadow: 0 1px 0 #111; */
+}
+
+.ui-body-b {
+border-width: 0;
+border-style: solid;
+}
+
+.epgpos {
+position: relative;
+top: -42px;
+right: -100px;
+max-width: 300px;
+}
+
+.ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
+background-color: rgba(57, 82, 95, 0.9);
+border-color: rgba(73, 73, 73, 0.32);
+color: rgba(0, 0, 0, 0.88);
+text-shadow: 0 0px 0 rgba(0, 0, 0, 0);
+}
+
+.ui-btn-active, .ui-state-persist, .ui-link, .ui-btn .ui-block-a {
+background-color: rgba(34, 170, 221, 0);
+}
+	
+
+		/* Arrow only buttons in the header. */
+		#demo-page .ui-header .ui-btn {
+			/*background: #990000;*/
+			border: none;
+			top: 9px;
+		}
+		#demo-page .ui-header .ui-btn-inner {
+			border: none;
+		}
+		/* Content styling. */
+		dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
+		dt { font-size: 2em; font-weight: bold; }
+		dt span { font-size: .5em; color: #777; margin-left: .5em; }
+		dd { font-size: 1.25em;	margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+		.back-btn { float: right; margin: 0 2em 1em 0; }

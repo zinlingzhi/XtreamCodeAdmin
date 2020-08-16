@@ -1,0 +1,188 @@
+/*custom background and login bg box*/
+.ui-overlay-b,.ui-page-theme-b,.ui-page-theme-b .ui-panel-wrapper {
+/* background-color: #252121;*/
+    background-image:url(../webapp/bg9.gif);
+/*Patterned background */
+    border-color:#454545
+/*background-image: url("http://focuswallpaper.com/download?filename=2014/08/Focus-Moss-Macro-Blurred.jpg");*/
+/*background-position: center;*/
+/*color: #fff;*/
+/*-webkit-background-size: cover; /* For WebKit*/
+/*-moz-background-size: cover;    /* Mozilla*/
+/*-o-background-size: cover;      /* Opera*/
+/*background-size: cover;         /* Generic*/
+}
+
+.ui-body-b {
+    border-width:0;
+    border-style:solid
+}
+
+.logo {
+    height:88px;
+    width:300px
+}
+
+.footer-logo {
+    height:59px;
+    width:200px;
+    box-shadow:1px -1px 0 rgba(255,255,255,1),0px -1px 0 rgba(255,255,255,0.77),0 0 11px rgba(0,0,0,0.6);
+    border-radius:10px
+}
+
+img {
+    max-width:100%;
+    max-height:100%
+}
+
+/*box bg colours*/
+.ui-body-b,html .ui-bar-b,html .ui-body-b,html body .ui-group-theme-b .ui-body-inherit,html .ui-panel-page-container-b {
+    border-color:rgba(66,66,66,0.57);
+    color:rgba(0,0,0,0.45);
+    text-shadow:0 1px 0 rgba(221,18,126,0);
+/*box-shadow: 0 0px 20px;*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow:0 1px 0 rgba(0,0,0,0.3),0 -1px 0 rgba(255,255,255,0.8),0 4px 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.3),0 -1px 0 rgba(255,255,255,0.8),0 4px 10px rgba(0,0,0,0.6);
+    box-shadow:0 0 0 rgba(0,0,0,0.11),0px -1px 0 rgba(255,255,255,0.77),0 0 11px rgba(0,0,0,0.6)
+}
+
+/*login button colours*/
+.ui-page-theme-b .ui-btn,html .ui-bar-b .ui-btn,html .ui-body-b .ui-btn,html body .ui-group-theme-b .ui-btn,html head+body .ui-btn.ui-btn-b,.ui-page-theme-b .ui-btn:visited,html .ui-bar-b .ui-btn:visited,html .ui-body-b .ui-btn:visited,html body .ui-group-theme-b .ui-btn:visited,html head+body .ui-btn.ui-btn-b:visited {
+    background-color:rgba(111,210,62,0.99);
+    border-color:rgba(111,210,62,0.38);
+    color:#FFF;
+    text-shadow:0 1px 0 rgba(121,121,121,0.29)
+}
+
+.ui-body-b,.ui-page-theme-b .ui-body-inherit,html .ui-bar-b .ui-body-inherit,html .ui-body-b .ui-body-inherit,html body .ui-group-theme-b .ui-body-inherit,html .ui-panel-page-container-b {
+    background-color:rgba(255,255,255,0.06);
+    border-color:rgba(107,107,107,0)
+}
+
+.ui-field-contain {
+    border-bottom-color:#828282;
+    border-bottom-color:rgba(255,255,255,0);
+    border-bottom-width:1px;
+    border-bottom-style:solid
+}
+
+body,input,select,textarea,button,.ui-btn {
+    font-size:1em;
+    line-height:1.3
+/*ont-family: Trebuchet MS ;*/
+}
+
+.ui-input-text input,.ui-input-search input {
+    background:rgba(255,255,255,0.2) none
+}
+
+.ui-page-theme-b .ui-btn:hover,html .ui-bar-b .ui-btn:hover,html .ui-body-b .ui-btn:hover,html body .ui-group-theme-b .ui-btn:hover,html head+body .ui-btn.ui-btn-b:hover {
+    background-color:rgba(135,255,75,0.93);
+    border-color:rgba(111,210,62,0.38);
+    -moz-box-shadow:0 0 12px #3cf;
+    -webkit-box-shadow:0 0 12px #3cf;
+    box-shadow:0 0 12px #3cf;
+    text-shadow:0 1px 0 rgba(121,121,121,0.29)
+}
+
+.ui-bar-b,.ui-page-theme-b .ui-bar-inherit,html .ui-bar-b .ui-bar-inherit,html .ui-body-b .ui-bar-inherit,html body .ui-group-theme-b .ui-bar-inherit {
+    background-color:rgba(29,29,29,0);
+    border-color:rgba(34,34,34,0)
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 1000px #fff inset
+}
+
+.ui-overlay-b,.ui-page-theme-b,.ui-page-theme-b .ui-panel-wrapper {
+    text-shadow:0 1px 0 rgba(0,0,0,0)
+}
+
+/*custom background and login bg box*/
+.ui-overlay-b,.ui-page-theme-b,.ui-page-theme-b .ui-panel-wrapper {
+/* background-color: #252121;*/
+    background-image:url(../webapp/bg9.gif);
+/*Patterned background */
+    border-color:#454545
+/*background-image: url("http://focuswallpaper.com/download?filename=2014/08/Focus-Moss-Macro-Blurred.jpg");*/
+/*background-position: center;*/
+/*color: #fff;*/
+/*-webkit-background-size: cover; /* For WebKit*/
+/*-moz-background-size: cover;    /* Mozilla*/
+/*-o-background-size: cover;      /* Opera*/
+/*background-size: cover;         /* Generic*/
+}
+
+.ui-body-b {
+    border-width:0;
+    border-style:solid
+}
+
+/*box bg colours*/
+.ui-body-b,html .ui-bar-b,html .ui-body-b,html body .ui-group-theme-b .ui-body-inherit,html .ui-panel-page-container-b {
+    border-color:rgba(66,66,66,0.57);
+    color:rgba(0,0,0,0.45);
+    text-shadow:0 1px 0 rgba(221,18,126,0);
+/*box-shadow: 0 0px 20px;*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow:0 1px 0 rgba(0,0,0,0.3),0 -1px 0 rgba(255,255,255,0.8),0 4px 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.3),0 -1px 0 rgba(255,255,255,0.8),0 4px 10px rgba(0,0,0,0.6);
+    box-shadow:0 0 0 rgba(0,0,0,0.11),0px -1px 0 rgba(255,255,255,0.77),0 0 11px rgba(0,0,0,0.6)
+}
+
+/*login button colours*/
+.ui-page-theme-b .ui-btn,html .ui-bar-b .ui-btn,html .ui-body-b .ui-btn,html body .ui-group-theme-b .ui-btn,html head+body .ui-btn.ui-btn-b,.ui-page-theme-b .ui-btn:visited,html .ui-bar-b .ui-btn:visited,html .ui-body-b .ui-btn:visited,html body .ui-group-theme-b .ui-btn:visited,html head+body .ui-btn.ui-btn-b:visited {
+    background-color:rgba(111,210,62,0.99);
+    border-color:rgba(111,210,62,0.38);
+    color:#FFF;
+    text-shadow:0 1px 0 rgba(121,121,121,0.29)
+}
+
+.ui-body-b,.ui-page-theme-b .ui-body-inherit,html .ui-bar-b .ui-body-inherit,html .ui-body-b .ui-body-inherit,html body .ui-group-theme-b .ui-body-inherit,html .ui-panel-page-container-b {
+    background-color:rgba(255,255,255,0.06);
+    border-color:rgba(107,107,107,0)
+}
+
+.ui-field-contain {
+    border-bottom-color:#828282;
+    border-bottom-color:rgba(255,255,255,0);
+    border-bottom-width:1px;
+    border-bottom-style:solid
+}
+
+body,input,select,textarea,button,.ui-btn {
+    font-size:1em;
+    line-height:1.3
+/*ont-family: Trebuchet MS ;*/
+}
+
+.ui-input-text input,.ui-input-search input {
+    background:rgba(255,255,255,0.2) none
+}
+
+.ui-page-theme-b .ui-btn:hover,html .ui-bar-b .ui-btn:hover,html .ui-body-b .ui-btn:hover,html body .ui-group-theme-b .ui-btn:hover,html head+body .ui-btn.ui-btn-b:hover {
+    background-color:rgba(135,255,75,0.93);
+    border-color:rgba(111,210,62,0.38);
+    -moz-box-shadow:0 0 12px #3cf;
+    -webkit-box-shadow:0 0 12px #3cf;
+    box-shadow:0 0 12px #3cf;
+    text-shadow:0 1px 0 rgba(121,121,121,0.29)
+}
+
+.ui-bar-b,.ui-page-theme-b .ui-bar-inherit,html .ui-bar-b .ui-bar-inherit,html .ui-body-b .ui-bar-inherit,html body .ui-group-theme-b .ui-bar-inherit {
+    background-color:rgba(29,29,29,0);
+    border-color:rgba(34,34,34,0)
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 1000px #fff inset
+}
+
+.ui-overlay-b,.ui-page-theme-b,.ui-page-theme-b .ui-panel-wrapper {
+    text-shadow:0 1px 0 rgba(0,0,0,0)
+}
